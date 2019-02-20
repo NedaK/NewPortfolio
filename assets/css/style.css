@@ -6,6 +6,14 @@
  * Made By MaterializeCSS.com
  */
 
+
+ img.activator{
+  height: 200px; /* Your height here */
+  overflow: hidden;
+}
+
+
+/* 
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -54,4 +62,4 @@ p {
 
 footer.page-footer {
   margin: 0;
-}
+} */

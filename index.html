@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Neda Wo Portfolio</title>
 
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -14,22 +14,22 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/> -->
-  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="blue-grey" role="navigation">
+  <nav class="brown lighten-4" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Neda Wo</a>
+      <a id="logo-container" href="#" class="deep-orange-text text-darken-4 brand-logo">NEDA WO</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav blue-grey-text">
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -39,53 +39,158 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Neda Wo</h1>
-        <div class="row center">
+        <!-- <h1 class="header center deep-orange-text text-darken-4">Neda Wo</h1> -->
+        <!-- <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
+        </div> -->
+        <!-- <div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
+        </div> -->
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="portfolio1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="assets/images/hello.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
   <div class="container">
-    <div class="section">
+    <div class="section scrollSpy" id="portfolio">
 
       <!--   Icon Section   -->
-      <div class="row">
+    <div class="row">
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
+                <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="assets/images/4.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4 center-align">COFFEE COLLECTIVE</span>
+                          <p><a href="https://nedak.github.io/Team4/">Link to Site</a><i class="material-icons right">more_vert</i></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">COFFEE COLLECTIVE<i class="material-icons right">close</i></span>
+                          <p>Search for a coffee shop/workspace within the Sacrmento area, and filter your results based on 
+                              user reviews and your criteria.
+                          </p>
+                        </div>
+                </div>
+                
+                        
+                
+                
+          
         </div>
 
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
+                <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="assets/images/gift.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4 center-align">GIFTastic!!</span>
+                          <p><a href="https://nedak.github.io/GifTastic/">Link to Site</a><i class="material-icons right">more_vert</i></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">GIFTastic<i class="material-icons right">close</i></span>
+                          <p>Enter in a word or phrase to display GIFs of your choice.  Can search for more GIFs on the same
+                              topic, or add other search phrases.  Uses GIPHY API.
+                          </p>
+                        </div>
+                </div>
+          
         </div>
+        
 
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+                <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" src="assets/images/train.jpeg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4 center-align">Train Time</span>
+                          <p><a href="https://nedak.github.io/TrainTime/">Link to Site</a><i class="material-icons right">more_vert</i></p>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Train Time<i class="material-icons right">close</i></span>
+                          <p>Mock train scheduler that takes user input form and generates a train schedule.
+                              Uses Firebase for persistant data storage, and Moment.js for time 
+                              manipulation.
+                          </p>
+                        </div>
+                </div>
+          
         </div>
       </div>
+
+      
+      <div class="row">
+            <div class="col s12 m4">
+    
+                    <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="assets/images/group.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4 center-align">FRIENDS TRIVIA</span>
+                              <p><a href="https://nedak.github.io/TriviaGame/">Link to Site</a><i class="material-icons right">more_vert</i></p>
+                            </div>
+                            <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">FRIENDS TRIVIA<i class="material-icons right">close</i></span>
+                              <p>Play a trivia game and test your knowledge on the hit TV series Friends.
+                                  Uses timers and intervals for game flow.
+                              </p>
+                            </div>
+                    </div>
+                    
+                            
+                    
+                    
+              
+            </div>
+    
+            <div class="col s12 m4">
+                    <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="assets/images/crystals.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4 center-align">CRYSTAL COLLECTOR</span>
+                              <p><a href="https://nedak.github.io/unit-4-crystalGame">Link to Site</a><i class="material-icons right">more_vert</i></p>
+                            </div>
+                            <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">CRYSTAL COLLECTOR<i class="material-icons right">close</i></span>
+                              <p>Upon game start, a random number will be generated and set to your target number.  Four
+                                  crystals displayed on screen will each hold a secret number.  Click the different crystals
+                                  to reveal their numbers, and try to match the target number.
+                              </p>
+                            </div>
+                    </div>
+              
+            </div>
+            
+    
+            <div class="col s12 m4">
+                    <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="assets/images/pb1.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4 center-align">WORD GUESS GAME</span>
+                              <p><a href="https://nedak.github.io/Word_Guess_Game/">Link to Site</a><i class="material-icons right">more_vert</i></p>
+                            </div>
+                            <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">PRINCESS BRIDE WORD GUESS GAME<i class="material-icons right">close</i></span>
+                              <p>At game start, a word relevant to "The Princess Bride" will be selected for player to guess.
+                                  If you guess a letter in the word, it fills it in the blank.  If you guess incorrectly, it goes into
+                                  the used letter bank.
+                              </p>
+                            </div>
+                    </div>
+              
+            </div>
+          </div>
 
     </div>
   </div>
@@ -94,16 +199,16 @@
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
+        <!-- <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
+        </div> -->
       </div>
     </div>
-    <div class="parallax"><img src="portfolio2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="assets/images/portfolio7.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
-    <div class="section">
+    <div class="section scrollspy" id="contact">
 
       <div class="row">
         <div class="col s12 center">
@@ -120,47 +225,37 @@
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
+        <!-- <div class="row center">
           <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
+        </div> -->
       </div>
     </div>
-    <div class="parallax"><img src="portfolio7.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="assets/images/portfolio6.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
-    <div class="container">
+  <footer class="page-footer cyan darken-4 section scrollSpy">
+    <div class="container" id="aboutMe">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        <div class="col s12 m4">
+          <!-- <h5 class="white-text center-align">About Me</h5> -->
+          <img src="assets/images/ppic.jpg" class="circle responsive-img"/>
+          
 
 
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+        <div class="col s12 m8">
+          <h5 class="white-text">About Me</h5>
+          <p class="grey-text text-lighten-4">I'm working on building up a portfolio and getting into web development.  I love learning new technologies, and solving problems in creative, innovative ways.</p>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
+        
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
+
+        <div class="container center-align">&copy; 2019 N. WO</div>
+      <!-- <div class="container">
       Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
+      </div> -->
     </div>
   </footer>
 
