@@ -1,15 +1,12 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
 
  img.activator{
   height: 200px; /* Your height here */
   overflow: hidden;
+}
+
+body{
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 
@@ -19,13 +16,14 @@ nav .brand-logo {
   color: #444;
 }
 
-p {
+/* p {
   line-height: 2rem;
-}
+} */
 
-.sidenav-trigger {
+/* .sidenav-trigger {
   color: #26a69a;
 }
+*/
 
 .parallax-container {
   min-height: 380px;
@@ -35,7 +33,7 @@ p {
 }
   .parallax-container .section {
     width: 100%;
-  }
+  } 
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -62,4 +60,4 @@ p {
 
 footer.page-footer {
   margin: 0;
-} */
+} 
