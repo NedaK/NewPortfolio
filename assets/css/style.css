@@ -31,9 +31,22 @@ nav .brand-logo {
   height: auto;
   
 }
+#logo{
+  width: 40%;
+  
+}
+.overlay{
+  margin: auto;
+  text-align: center;
+}
   .parallax-container .section {
     width: 100%;
   } 
+
+/* #index-banner{
+  background-image: url("../images/wall.jpg");
+  z-index: -1;
+} */
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
